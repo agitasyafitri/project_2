@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrasi.form</title>
+    </head>
+    <body>
+        <form action="contact.php" method="POTS">
+            <fieldset>
+                <legend>Informasi Pribadi</legend>
+                <p>
+                    <table>
+                    <tr>
+                    <td>
+                        <label>Nama lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text " name="nama lengkap" >
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label>Tanggal lahir </label></td>
+                        <td><input type="date" name="tanggal lahir"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Umur </label></td>
+                        <td><input type="number" min="10" max="90" name="umur" ></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin </label></td>
+                        <td>
+                            <label><input type="radio" name="Jeniskelamin" value="Laki-laki">Laki-laki</label>
+                            <label><input type="radio" name="Jeniskelamin" value="Perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Agama </label>
+                        </td>
+                        <td>
+                            <select name="Agama">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Hindu">Hindu</option>
+                            </select>    
+                        </td>
+                    </tr>
+                </table>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Informasi Kontak</legend>
+                <p>
+                   <table>
+                       <tr>
+                           <td><label>Alamat </label></td>
+                           <td><textarea></textarea></td>
+                       </tr>
+                       <tr>
+                           <td><label>Kota </label></td>
+                           <td><input type="text" name="Kota"></td>
+                       </tr>
+                       <tr>
+                           <td><label>Kode pos </label></td>
+                           <td><input type="text" name="Kode pos"></td>
+                       </tr>
+                       <tr>
+                           <td><label>Provinsi</label></td>
+                           <td><input type="text" name="provinsi"></td>
+                       </tr>
+                       <tr>
+                           <td><label> No.Handphone </label></td>
+                           <td><input type="text"  name="No.handphone"></td>
+                       </tr>
+                       <tr>
+                           <td><label>Negara </label></td>
+                           <td><input type="text" name="negara"></td>
+                       </tr>
+                       <tr>
+                           <td><label>Email </label></td>
+                           <td><input type="email" name="email"></td>
+                       </tr>
+                    </table>
+                </p>
+                <p>
+                    <button type="submit"> KIRIM</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
